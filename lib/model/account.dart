@@ -13,5 +13,8 @@ class Account {
     required this.userId,
     this.createdTime,
     this.updatedTime
-  }){}
+  }){
+    this.createdTime = DateTime.now();
+    this.updatedTime = DateTime.now();
+  }
 }

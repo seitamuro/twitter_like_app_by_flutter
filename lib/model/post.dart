@@ -9,5 +9,7 @@ class Post {
     required this.content,
     required this.postAccountId,
     this.createdTime
-  }){}
+  }){
+    this.createdTime = DateTime.now();
+  }
 }
