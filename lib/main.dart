@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:twitter_like_app/time_line/time_line_page.dart';
+import 'package:twitter_like_app/view/time_line/time_line_page.dart';
 
 void main() {
   runApp(MyApp());
