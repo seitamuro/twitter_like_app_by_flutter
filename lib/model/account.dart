@@ -7,10 +7,10 @@ class Account {
   DateTime? updatedTime;
 
   Account({
-    this.id = "",
-    this.name = "",
+    required this.id,
+    required this.name,
     this.selfIntroduction = "",
-    this.userId = "",
+    required this.userId,
     this.createdTime,
     this.updatedTime
   }){}
